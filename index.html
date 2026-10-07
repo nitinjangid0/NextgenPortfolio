@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NEXTgen</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <header>
+      <nav class="nav_bar" >
+        <div class = "box_links">
+        <a class="links" href="#home">HOME</a>
+        <a class="links" href="#about">ABOUT ME</a>
+         <a class="links" href="#skill">SKILLS</a>
+          <a class="links" href="#resume">RESUME</a>
+          <a class="links" href="#contact">CONTACT</a>
+          </div>
+        </nav>
+      </header>
+<main>
+  <!-- HOME / HERO SECTION -->
+  <section id="home" class="hero_section">
+    <div class="hero_content">
+      <span class="badge">AI & Machine Learning Developer</span>
+      <h1>Hi, I'm <span class="highlight">Alex Morgan</span></h1>
+      <h2>Building Intelligent Systems & Machine Learning Solutions</h2>
+      <p>
+        Passionate AI Developer specializing in Computer Vision, Natural Language Processing, and Generative AI models. Transforming complex data into actionable artificial intelligence.
+      </p>
+      
+      <div class="hero_btns">
+        <a href="#contact" class="btn primary_btn">Get In Touch</a>
+        <a href="#resume" class="btn secondary_btn">View Projects</a>
+      </div>
+    </div>
+
+    <div class="hero_visual">
+      <div class="ai_card">
+        <div class="code_header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="code_title">model.py</span>
+        </div>
+        <pre class="code_body"><code><span class="keyword">import</span> torch
+<span class="keyword">import</span> torch.nn <span class="keyword">as</span> nn
+
+<span class="comment"># Initialize AI Neural Network</span>
+<span class="keyword">class</span> <span class="class_name">AIEngine</span>(nn.Module):
+    <span class="keyword">def</span> <span class="function">__init__</span>(self):
+        <span class="keyword">super</span>().__init__()
+        self.layer = nn.Linear(1024, 512)
+        
+    <span class="keyword">def</span> <span class="function">forward</span>(self, x):
+        <span class="keyword">return</span> self.layer(x)
+
+<span class="comment"># Status: Model Trained (98.4% Acc)</span></code></pre>
+      </div>
+    </div>
+  </section>
+  <!-- About Me Section -->
+<section id="about" class="about-section">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          I am a passionate <strong>AI & Machine Learning Developer</strong> dedicated to designing and deploying scalable, high-performance intelligent systems[cite: 1]. With expertise bridging theoretical research and practical application, I turn complex data challenges into powerful digital solutions[cite: 1].
+        </p>
+        <p>
+          My technical focus spans <strong>Computer Vision</strong>, <strong>Natural Language Processing (NLP)</strong>, and <strong>Generative AI models</strong>[cite: 1]. I enjoy building deep learning architectures, optimizing Neural Networks, and creating AI tools that solve real-world problems efficiently[cite: 1].
+        </p>
+      </div>
+
+      <div class="about-highlights">
+        <div class="highlight-card">
+          <h3>Computer Vision</h3>
+          <p>Object detection, image classification, and real-time video analytics.</p>
+        </div>
+        <div class="highlight-card">
+          <h3>NLP & GenAI</h3>
+          <p>Large Language Models, sentiment analysis, and conversational AI.</p>
+        </div>
+        <div class="highlight-card">
+          <h3>Model Engineering</h3>
+          <p>PyTorch, TensorFlow, custom model optimization, and deployment.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Skills Section -->
+<section id="skill" class="skills-section">
+  <div class="container">
+    <h2 class="section-title">Skills & Expertise</h2>
+    
+    <div class="skills-grid">
+      <!-- AI & ML Core -->
+      <div class="skill-card">
+        <h3>AI & Machine Learning</h3>
+        <ul class="skill-list">
+          <li>Computer Vision</li>
+          <li>Natural Language Processing (NLP)</li>
+          <li>Generative AI & LLMs</li>
+          <li>Neural Networks & Deep Learning</li>
+          <li>Model Optimization & Training</li>
+        </ul>
+      </div>
+
+      <!-- Frameworks & Libraries -->
+      <div class="skill-card">
+        <h3>Frameworks & Libraries</h3>
+        <ul class="skill-list">
+          <li>PyTorch (`torch`, `torch.nn`)</li>
+          <li>TensorFlow / Keras</li>
+          <li>OpenCV</li>
+          <li>Hugging Face Transformers</li>
+          <li>Scikit-Learn, NumPy, Pandas</li>
+        </ul>
+      </div>
+
+      <!-- Software & Deployment -->
+      <div class="skill-card">
+        <h3>Development & Tools</h3>
+        <ul class="skill-list">
+          <li>Python / C++</li>
+          <li>Git & Version Control</li>
+          <li>REST APIs & FastAPI</li>
+          <li>Docker & Model Deployment</li>
+          <li>CUDA & GPU Acceleration</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Resume Section -->
+<section id="resume" class="resume-section">
+  <div class="container">
+    <div class="resume-header">
+      <h2 class="section-title">Resume</h2>
+      <a href="resume.pdf" class="btn-download" download>Download CV</a>
+    </div>
+
+    <div class="resume-grid">
+      <!-- Experience Column -->
+      <div class="resume-column">
+        <h3 class="column-title">Work Experience</h3>
+
+        <div class="timeline-item">
+          <span class="timeline-date">2023 - Present</span>
+          <h4 class="timeline-role">AI & Machine Learning Developer</h4>
+          <p class="timeline-company">Tech Solutions Inc.</p>
+          <ul class="timeline-description">
+            <li>Designed and fine-tuned Generative AI and LLM architectures using PyTorch[cite: 1].</li>
+            <li>Built custom Computer Vision pipelines for real-time video stream analysis[cite: 1].</li>
+            <li>Optimized neural network models, achieving high accuracy performance in production environments[cite: 1].</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">2021 - 2023</span>
+          <h4 class="timeline-role">Junior Machine Learning Engineer</h4>
+          <p class="timeline-company">Data Dynamics Lab</p>
+          <ul class="timeline-description">
+            <li>Developed NLP classification models to transform unstructured text into structured datasets[cite: 1].</li>
+            <li>Collaborated with cross-functional teams to deploy REST APIs for ML inference[cite: 1].</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Education Column -->
+      <div class="resume-column">
+        <h3 class="column-title">Education & Certifications</h3>
+
+        <div class="timeline-item">
+          <span class="timeline-date">2017 - 2021</span>
+          <h4 class="timeline-role">B.S. in Computer Science</h4>
+          <p class="timeline-company">State University</p>
+          <p class="timeline-description">
+            Specialized in Artificial Intelligence, Data Structures, and Software Engineering.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">2022</span>
+          <h4 class="timeline-role">Deep Learning & Computer Vision Specialization</h4>
+          <p class="timeline-company">Online Professional Certification</p>
+          <p class="timeline-description">
+            Advanced training in PyTorch, TensorFlow, object detection, and generative modeling techniques[cite: 1].
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer>
+  <!-- Contact Section -->
+<section id="contact" class="contact-section">
+  <div class="container">
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="section-subtitle">
+      Have a project in mind or want to discuss machine learning opportunities? Feel free to reach out!
+    </p>
+
+    <div class="contact-grid">
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <div class="info-card">
+          <div class="info-icon">📧</div>
+          <div>
+            <h4>Email</h4>
+            <a href="mailto:alex.morgan@example.com">alex.morgan@example.com</a>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-icon">📍</div>
+          <div>
+            <h4>Location</h4>
+            <p>Available for Remote & Hybrid Roles</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-icon">🔗</div>
+          <div>
+            <h4>Social Profiles</h4>
+            <div class="social-links">
+              <a href="#" target="_blank">GitHub</a>
+              <a href="#" target="_blank">LinkedIn</a>
+              <a href="#" target="_blank">X (Twitter)</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <form class="contact-form" action="#" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+</footer>
+          
+  </body>
+</html>
